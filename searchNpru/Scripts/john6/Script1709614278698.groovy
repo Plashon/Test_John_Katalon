@@ -29,6 +29,8 @@ WebUI.setText(findTestObject('Object Repository/Page_Customer Form/input_Age_age
 
 WebUI.click(findTestObject('Object Repository/Page_Customer Form/button_Submit'))
 
+WebUI.verifyTextPresent('Customer Detail Form', false)
+
 WebUI.takeScreenshot('D:\\plashon\\katalon\\searchNpru\\JohnPic\\JohnPic6.png')
 
 WebUI.closeBrowser()
